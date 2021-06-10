@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src = "funciones.js" async="true"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">	
+	<link href="https://fonts.googleapis.com/css2? familia=Inter&family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- 	<label>Ancho</label><input type="number" name="ancho">
+	<label>Alto</label><input type="number" name="alto">
+	<label>Color</label><input type="color" name="color">
+
+	<button onclick="crear()" class="espacio">Crear</button>
+
+	<div id="cuadro" class="espacio"></div> -->
+
+	<div id="cen"> 
+
+		<div id="pantalla">
+
+		<div id="modo">
+			
+			<button onclick="claro()"><i id="cla" class="fas fa-sun"></i></button>
+			<button onclick="oscuro()"><i id="osc" class="fas fa-moon activo"></i></button>
+
+		</div>
+
+
+		 	<div id="p1">
+				
+			</div> 
+
+
+ 	 		<div id="p2">
+				
+			</div>  
+
+
+		</div>
+
+			<div class="botones">
+				<div class="botG" onclick="borrar()">AC</div>
+				<div class="botG" onclick="agregar()">+/-</div>
+				<div class="botG" onclick="agregar()">%</div>
+				<div class="botN" onclick="agregar('/')">/</div>
+
+				<div class="bot" onclick="agregar(7)">7</div>
+				<div class="bot" onclick="agregar(8)">8</div>
+				<div class="bot" onclick="agregar(9)">9</div>
+				<div class="botN" onclick="agregar('*')">X</div>
+
+				<div class="bot" onclick="agregar(4)">4</div>
+				<div class="bot" onclick="agregar(5)">5</div>
+				<div class="bot" onclick="agregar(6)">6</div>
+				<div class="botN" onclick="agregar('-')">-</div>
+
+				<div class="bot" onclick="agregar(1)">1</div>
+				<div class="bot" onclick="agregar(2)">2</div>
+				<div class="bot" onclick="agregar(3)">3</div>
+				<div class="botN" onclick="agregar('+')">+</div>
+
+				<div class="boto" onclick="agregar(0)">0</div>
+				<div class="bot" onclick="agregar('.')">.</div>
+				<div class="botN" onclick="resultado()">=</div>
+
+			</div>
+
+	</div>
+
+</body>
+</html>
